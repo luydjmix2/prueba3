@@ -1,0 +1,27 @@
+/*
+Comment: hoja de estilos en los cuales se establece el front de mi prueba.
+*/
+/* 
+    Created on : 12/11/2019, 03:36:54 PM
+    Author     : Luis suarez
+*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.reporte{
+    display: none;
+}
